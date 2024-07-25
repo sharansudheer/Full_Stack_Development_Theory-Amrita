@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <H2>
+            Web form
+        </H2>
+        <form>
+            <label for="lab_cust_id">Customer ID</label><br>
+            <input type="text" id="inp_cust_id"><br><br>
+
+            <label for="lab_cust_name">Customer Name</label><br>
+            <input type="text" id="inp_cust_name"><br><br>
+
+            <label for="lab_addr_cust">Address</label><br>
+            <textarea id="txtarea_addr"rows="4" cols="50"></textarea><br><br>
+
+            <label for="lab_dob">Date of Birth</label><br>
+            <input type="date" id="inp_dob"><br><br>
+
+            <label for="lab_mari_status">If Married or Not</label><br>
+            <label for="lab_yes">Yes</label> &nbsp;
+            <input type="radio" id="inp_stat_y" name="inp_stat"> &ensp; 
+            <label for="lab_no">No</label> &nbsp;
+            <input type="radio" id="inp_stat_n" name="inp_stat" value="No" checked="checked" ><br> <br>
+
+        </form>
+    </body>
+</html>
+<!--
+    Full stack form exercise:		
+Columns	Control	ID
+Customer ID	Text box	
+Customer Name	Text box	txt 
+Address of the customer	Text box	
+Date of Birth of customer	Calendar	
+If Married, Anniversary date	Radio button, 	rdo_married
+How did you know abour our product	Multi-line text box	
+Would you like to refer this product to somebody else if yes 	Radio button, text box, text box	
+Email ID 		
+Contact no		
+Ok button and Cancel button		btn_cancel
+		
+Controls		
+Text box, Labels, check box, drop down list box, calendar, radio button		
+		
+Columns	Test Cases:	
+Customer Name	Should not be empty, take special characters, min length, should accept upper and lower case	
+Customer ID	Prefix C_, Maximum and minimum size, can be autonumbering	
+Address of the customer	should allow special char and alphanumeric, not empty	
+Date of Birth of customer	not today's date, minimum age, not allow future date, dates less than 1950	
+If Married, Anniversary date	not today's date, not allow future date, dates less than 1950	
+How did you know abour our product	can be optional field	
+Would you like to refer this product to somebody else if yes email ID and contact no	only one radio button to be selected 	
+Ok button and Cancel button	ok to check all the field, cancel to delete all the fields	
+		
+Server side Test Cases	login is authenticated by the server, Security test cases - GET/POST, all test cases are vailidated before connecting to server	
+		
+Non functional Test Cases	Colors, font, UI, Response time, browser check, Load check,
+
+-->
