@@ -1,1 +1,2 @@
-# Full_Stack_Development_Theory-Amrita-
+# Full Stack Development Theory Amrita
+## Index
