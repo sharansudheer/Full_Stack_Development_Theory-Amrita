@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student_acad>
+    <record no="1">
+        <semester> 1 </semester>
+        <roll_nb>CB.SC.P2CS25010 </roll_nb>
+        <name> Gaga </name>
+    </record>
+
+    <record no="2">
+        <semester> 1 </semester>
+        <roll_nb>CB.SC.P2CS25010 </roll_nb>
+        <name> Gaga </name>
+    </record>
+
+    <semester> 1 </semester>
+    <roll_nb>CB.SC.P2CS25010 </roll_nb>
+    <name> Gaga </name>
+</student_acad>
+
