@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student_acad>
+    <record no="1">
+        <semester> 1 </semester>
+        <roll_nb>CB.SC.P2CS25010 </roll_nb>
+        <name> Gaga </name>
+    </record>
+
+    <record no="2">
+        <semester> 1 </semester>
+        <roll_nb>CB.SC.P2CS25010 </roll_nb>
+        <name> kaga </name>
+    </record>
+
+    <record no="2">
+        <semester> 1 </semester>
+        <roll_nb>CB.SC.P2CS25010 </roll_nb>
+        <message> if salary &lt; 25000 then </message> 
+        <doj> 
+        <day>10</day>
+        <month>December</month>
+        <year>2024</year>
+        <name> Gaga </name>
+        </doj>
+    </record>
+</student_acad>
+
+<!-- DTD and XSD
+PCDATA
+Charecter Data, CDATA
+
+ -->
