@@ -9,11 +9,24 @@
     <record no="2">
         <semester> 1 </semester>
         <roll_nb>CB.SC.P2CS25010 </roll_nb>
-        <name> Gaga </name>
+        <name> kaga </name>
     </record>
 
-    <semester> 1 </semester>
-    <roll_nb>CB.SC.P2CS25010 </roll_nb>
-    <name> Gaga </name>
+    <record no="2">
+        <semester> 1 </semester>
+        <roll_nb>CB.SC.P2CS25010 </roll_nb>
+        <message> if salary &lt; 25000 then </message> 
+        <doj> 
+        <day>10</day>
+        <month>December</month>
+        <year>2024</year>
+        <name> Gaga </name>
+        </doj>
+    </record>
 </student_acad>
 
+<!-- DTD and XSD
+PCDATA
+Charecter Data, CDATA
+
+ -->
